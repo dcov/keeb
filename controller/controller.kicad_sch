@@ -4314,6 +4314,22 @@
     (pin "9" (uuid 92353c82-aa2f-4f3c-b771-59cce0c58a22))
   )
 
+  (symbol (lib_id "Regulator_Linear:AP2127N-3.3") (at 138.684 42.418 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 082fbcf6-a43d-4e76-ba92-bf94710b0792)
+    (property "Reference" "LDO1" (id 0) (at 138.684 35.56 0))
+    (property "Value" "AP2127N-3.3" (id 1) (at 138.684 38.1 0))
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 138.684 36.703 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf" (id 3) (at 138.684 42.418 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cd792226-86c0-423e-a6ae-06c2303dbe63))
+    (pin "2" (uuid 0a966c1c-2494-4203-aab8-f941f9c2de26))
+    (pin "3" (uuid bbe19045-32cb-4c60-8b0c-b2ee5498079f))
+  )
+
   (symbol (lib_id "Device:C_Small") (at 440.182 50.419 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 08408158-7100-406e-95d2-c29c2cf264b8)
@@ -6006,26 +6022,6 @@
     (pin "6" (uuid 35bd076a-1c59-46c3-8281-61b6f79c3c18))
   )
 
-  (symbol (lib_id "Regulator_Linear:AP2127N-3.3") (at 138.684 42.418 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid c43cde42-06c8-4a38-a840-be919d24617a)
-    (property "Reference" "LDO1" (id 0) (at 138.684 36.83 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Value" "AP2127N-3.3" (id 1) (at 138.684 39.37 0)
-      (effects (font (size 1 1) italic))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 138.684 36.703 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf" (id 3) (at 138.684 42.418 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6c3c7de5-ae0d-4ccf-945e-2ec7bbb50e8d))
-    (pin "2" (uuid 6e0e8451-23c9-42d0-ac55-bcffcfbe766b))
-    (pin "3" (uuid 9cacdec7-a936-40b0-97e6-d8753fdb3bbb))
-  )
-
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 340.36 373.634 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c670bc9b-31be-4623-99a1-f2933a55a2af)
@@ -6930,7 +6926,7 @@
     (path "/a17619f1-4e26-4220-8e43-7310f7b35ab8"
       (reference "H14") (unit 1) (value "Conn_01x03") (footprint "Connector_Molex:Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical")
     )
-    (path "/c43cde42-06c8-4a38-a840-be919d24617a"
+    (path "/082fbcf6-a43d-4e76-ba92-bf94710b0792"
       (reference "LDO1") (unit 1) (value "AP2127N-3.3") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/08095b9f-c00a-4aa2-ac61-083765d74bc7"
