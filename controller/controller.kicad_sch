@@ -5474,7 +5474,7 @@
     (uuid 8b4289f2-9a86-4728-acfc-6857feae1132)
     (property "Reference" "FB1" (id 0) (at 316.0649 35.56 90))
     (property "Value" "120R" (id 1) (at 316.0649 38.1 90))
-    (property "Footprint" "Inductor_SMD:L_1206_3216Metric" (id 2) (at 316.103 43.942 90)
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (id 2) (at 316.103 43.942 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 316.103 42.164 0)
@@ -6882,7 +6882,7 @@
       (reference "ESD1") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/8b4289f2-9a86-4728-acfc-6857feae1132"
-      (reference "FB1") (unit 1) (value "120R") (footprint "Inductor_SMD:L_1206_3216Metric")
+      (reference "FB1") (unit 1) (value "120R") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/c36b3a61-3f93-4a26-bac4-d190cb007fea"
       (reference "H1") (unit 1) (value "Conn_01x06") (footprint "Connector_Molex:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical")

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/dc/keeb/thumbstick/thumbstick.kicad_sch</source>
+    <date>Mon 14 Nov 2022 03:51:00 PM PST</date>
+    <tool>Eeschema 6.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Keeb Stick</title>
+        <company>Diego Covarrubias</company>
+        <rev>1</rev>
+        <date>2022-11-14</date>
+        <source>thumbstick.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="thumbstick.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14986660-c216-4b7d-b8f9-1ab1b9ee35ee</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="thumbstick.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92e1c800-dd94-4142-9d8a-73a46f59d779</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="thumbstick.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f47e4ceb-d204-43e8-987e-6e9c99bf366a</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>Conn_01x05</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53047-0510_1x05_P1.25mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="thumbstick.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea3b1fe6-6bf0-40db-b4da-0f528be15525</tstamps>
+    </comp>
+    <comp ref="MNT1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="thumbstick.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f6e70b0-eeaa-4131-a86b-0c19e82c327f</tstamps>
+    </comp>
+    <comp ref="POT1">
+      <value>RKJXV122400R</value>
+      <footprint>rkjxv1220001:RKJXV122400R</footprint>
+      <libsource lib="rkjxv1220001" part="RKJXV122400R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="thumbstick.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4e7612d-2777-42ac-a992-ac9d4926dbfd</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="rkjxv1220001" part="RKJXV122400R">
+      <fields>
+        <field name="Reference">POT</field>
+        <field name="Value">RKJXV122400R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="" type="input"/>
+        <pin num="8" name="" type="input"/>
+        <pin num="9" name="" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/nix/store/f2lflvnvmfcpyc13c88d12cmvl8aqj7f-kicad-symbols-c7f82c947a/share/kicad/symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/nix/store/f2lflvnvmfcpyc13c88d12cmvl8aqj7f-kicad-symbols-c7f82c947a/share/kicad/symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/nix/store/f2lflvnvmfcpyc13c88d12cmvl8aqj7f-kicad-symbols-c7f82c947a/share/kicad/symbols/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="rkjxv1220001">
+      <uri>/home/dc/keeb/thumbstick/rkjxv1220001/rkjxv1220001.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="H1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="POT1" pin="3" pintype="input"/>
+      <node ref="POT1" pin="6" pintype="input"/>
+      <node ref="POT1" pin="7" pintype="input"/>
+    </net>
+    <net code="2" name="P_OUT">
+      <node ref="H1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="POT1" pin="8" pintype="input"/>
+    </net>
+    <net code="3" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="POT1" pin="1" pintype="input"/>
+      <node ref="POT1" pin="4" pintype="input"/>
+    </net>
+    <net code="4" name="X_OUT">
+      <node ref="H1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="POT1" pin="2" pintype="input"/>
+    </net>
+    <net code="5" name="Y_OUT">
+      <node ref="H1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="POT1" pin="5" pintype="input"/>
+    </net>
+    <net code="6" name="unconnected-(POT1-Pad9)">
+      <node ref="POT1" pin="9" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

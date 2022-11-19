@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/dc/keeb/sensor/sensor.kicad_sch</source>
+    <date>Mon 14 Nov 2022 03:51:34 PM PST</date>
+    <tool>Eeschema 6.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sensor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>399e9dc7-4a3d-419d-9fd9-3e149f1c12db</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1.3pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d1c6d90-4e33-42e7-a5c2-4b95f1387cdd</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e64d7538-2ce3-4f02-918a-b68a214ed867</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f659c550-5ac1-428e-9471-22227060d8b4</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27aec862-09fa-484f-a383-db840b263baf</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ce2a1eb-7475-469c-a6e2-24fd6bcc8afa</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b594a120-0011-4d38-a33a-e6302b09e48c</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0819637d-85cb-4478-bd41-363995a2c7eb</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0424650-e690-4083-bda9-b24bd854760c</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>Conn_01x06</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d777eed-851d-4eac-bf6e-e5fa75fcd75d</tstamps>
+    </comp>
+    <comp ref="LDO1">
+      <value>AP2127K-ADJ</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2127.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AP2127K-ADJ" description="300mA low dropout adjustable linear regulator, shutdown pin, 2.5V-6V input voltage, SOT-23-5 package"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50eb54ea-d732-41b4-a812-069705b5ee75</tstamps>
+    </comp>
+    <comp ref="MNT1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7502129f-58d7-431a-b5c1-73fd05e54781</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>15KR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d87f1ede-bbf0-4e20-8c59-513aec2f349a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10KR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12ff756f-e7d4-4675-bf6c-7bbd1a7fe221</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>39R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc075e5f-618d-40df-b111-38f31dea9faa</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10KR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0003e7c-c32b-40cf-a87f-1c5be9cf6822</tstamps>
+    </comp>
+    <comp ref="SN1">
+      <value>PMW3360DM-T2QU</value>
+      <footprint>PixArt:PMW3360DM-T2QU</footprint>
+      <libsource lib="PixArt" part="PMW3360DM-T2QU" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a36bf631-4d48-401c-a96e-23d46525c847</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="PixArt" part="PMW3360DM-T2QU">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PMW3360DM-T2QU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="input"/>
+        <pin num="2" name="NC" type="input"/>
+        <pin num="3" name="VDDPIX" type="input"/>
+        <pin num="4" name="VDD" type="input"/>
+        <pin num="5" name="VDDIO" type="input"/>
+        <pin num="6" name="NC" type="input"/>
+        <pin num="7" name="NRESET" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="MOTION" type="input"/>
+        <pin num="10" name="SCLK" type="input"/>
+        <pin num="11" name="MOSI" type="input"/>
+        <pin num="12" name="MISO" type="input"/>
+        <pin num="13" name="NCS" type="input"/>
+        <pin num="14" name="NC" type="input"/>
+        <pin num="15" name="LED_P" type="input"/>
+        <pin num="16" name="NC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP2127K-ADJ">
+      <description>300mA low dropout adjustable linear regulator, shutdown pin, 2.5V-6V input voltage, SOT-23-5 package</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2127.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2127K-ADJ</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2127.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="ADJ" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/nix/store/f2lflvnvmfcpyc13c88d12cmvl8aqj7f-kicad-symbols-c7f82c947a/share/kicad/symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/nix/store/f2lflvnvmfcpyc13c88d12cmvl8aqj7f-kicad-symbols-c7f82c947a/share/kicad/symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/nix/store/f2lflvnvmfcpyc13c88d12cmvl8aqj7f-kicad-symbols-c7f82c947a/share/kicad/symbols/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="PixArt">
+      <uri>/home/dc/keeb/sensor/PixArt/PixArt.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/nix/store/f2lflvnvmfcpyc13c88d12cmvl8aqj7f-kicad-symbols-c7f82c947a/share/kicad/symbols/Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="H1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="LDO1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SN1" pin="8" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="2" name="LED_P">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SN1" pin="15" pinfunction="LED_P" pintype="input"/>
+    </net>
+    <net code="3" name="MISO">
+      <node ref="H1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SN1" pin="12" pinfunction="MISO" pintype="input"/>
+    </net>
+    <net code="4" name="MOSI">
+      <node ref="H1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="SN1" pin="11" pinfunction="MOSI" pintype="input"/>
+    </net>
+    <net code="5" name="NCS">
+      <node ref="H1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SN1" pin="13" pinfunction="NCS" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="LDO1" pin="4" pinfunction="ADJ" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="SCLK">
+      <node ref="H1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="SN1" pin="10" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="8" name="VDD">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="LDO1" pin="5" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SN1" pin="4" pinfunction="VDD" pintype="input"/>
+    </net>
+    <net code="9" name="VDDIO">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="LDO1" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="LDO1" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SN1" pin="5" pinfunction="VDDIO" pintype="input"/>
+    </net>
+    <net code="10" name="VDDPIX">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="SN1" pin="3" pinfunction="VDDPIX" pintype="input"/>
+    </net>
+    <net code="11" name="unconnected-(SN1-Pad1)">
+      <node ref="SN1" pin="1" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(SN1-Pad2)">
+      <node ref="SN1" pin="2" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(SN1-Pad6)">
+      <node ref="SN1" pin="6" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(SN1-Pad7)">
+      <node ref="SN1" pin="7" pinfunction="NRESET" pintype="input+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(SN1-Pad9)">
+      <node ref="SN1" pin="9" pinfunction="MOTION" pintype="input+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(SN1-Pad14)">
+      <node ref="SN1" pin="14" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(SN1-Pad16)">
+      <node ref="SN1" pin="16" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
