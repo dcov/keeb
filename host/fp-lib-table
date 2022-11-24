@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "KLIB")(type "KiCad")(uri "C:/Users/theco/klib/custom.pretty")(options "")(descr ""))
+)
