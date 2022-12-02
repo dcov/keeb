@@ -2752,7 +2752,7 @@
   (symbol (lib_id "MCU_ST_STM32F4:STM32F401RCTx") (at 61.976 202.184 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0cf90a94-8a8c-402d-a846-a0a32251e41c)
-    (property "Reference" "U3" (id 0) (at 69.088 158.242 0)
+    (property "Reference" "U2" (id 0) (at 69.088 158.242 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "STM32F401RCT6" (id 1) (at 69.0754 160.02 0)
@@ -2908,7 +2908,7 @@
   (symbol (lib_id "Power_Protection:USBLC6-2SC6") (at 204.47 217.17 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 46bf371d-1bf5-4b9f-a9d5-d73816ac87ae)
-    (property "Reference" "U2" (id 0) (at 207.264 206.502 0)
+    (property "Reference" "U3" (id 0) (at 207.264 206.502 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Value" "USBLC6-2SC6" (id 1) (at 207.2387 208.28 0)
@@ -3553,11 +3553,11 @@
     (path "/fb3b5652-ea93-47cc-9474-812d1e2b5384"
       (reference "U1") (unit 1) (value "AP2127N-3.3") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/46bf371d-1bf5-4b9f-a9d5-d73816ac87ae"
-      (reference "U2") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
-    )
     (path "/0cf90a94-8a8c-402d-a846-a0a32251e41c"
-      (reference "U3") (unit 1) (value "STM32F401RCT6") (footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")
+      (reference "U2") (unit 1) (value "STM32F401RCT6") (footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")
+    )
+    (path "/46bf371d-1bf5-4b9f-a9d5-d73816ac87ae"
+      (reference "U3") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/7facd3ee-8f53-41cd-9607-37f24abf1516"
       (reference "Y1") (unit 1) (value "8M") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm")
