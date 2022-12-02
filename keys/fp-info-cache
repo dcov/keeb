@@ -1,4 +1,4 @@
-20700297156777864
+20700298121317195
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86909,12 +86909,12 @@ OPSCO_SK6812MINI-E
 
 
 0
-0
-0
+8
+4
 klib
-OPSCO_SK6812SMINI-ER
-
-
+SMD_D-SOD-323-Reversible
+SOD-323
+SOD-323
 0
-0
-0
+4
+2
