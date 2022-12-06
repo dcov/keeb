@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "PixArt")(type "KiCad")(uri "${KIPRJMOD}/PixArt/PixArt.pretty")(options "")(descr ""))
+  (lib (name "klib")(type "KiCad")(uri "C:/Users/theco/klib/klib.pretty")(options "")(descr ""))
 )
