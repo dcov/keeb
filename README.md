@@ -9,3 +9,6 @@ Contains the KiCad project files for the mouse sensor board for the trackballs.
 
 ### stick
 Contains the KiCad project files for the joystick boards.
+
+
+### other components are WIP
